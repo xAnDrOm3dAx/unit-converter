@@ -7,10 +7,6 @@ A project from scrimba.com learn javaScript course.
 
 HTML, CSS & Javascript
 
-#### Introduction:
-
-Build a password generator using foundational knowledge gained from the Scrimba - Learn Javascript course and The Odin Project Foundations course.
-
 #### Requirements
 
 Use the Figma design file reference.
