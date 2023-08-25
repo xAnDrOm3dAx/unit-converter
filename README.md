@@ -9,10 +9,10 @@ HTML, CSS & Javascript
 
 #### Requirements
 
-Use the Figma design file reference.
-Save number to a variable in code.
-When app loads, do calculations and display results.
-Check out this CSS gradient generator https://www.joshwcomeau.com/gradient-generator/.
+Use the Figma design file reference.<br/>
+Save number to a variable in code.<br/>
+When app loads, do calculations and display results.<br/>
+Check out this CSS gradient generator https://www.joshwcomeau.com/gradient-generator/.<br/> <br/>
 
 Stretch: Add an input for the user to change the number and automatically recalculate valuse when it changes.
 
