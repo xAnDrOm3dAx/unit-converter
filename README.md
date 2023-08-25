@@ -1,4 +1,5 @@
-# Unit Converter - A project from scrimba.com learn javaScript course.
+# Unit Converter
+A project from scrimba.com learn javaScript course.
 
 ## Version 1:
 
