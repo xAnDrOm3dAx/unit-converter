@@ -18,14 +18,14 @@ conversionForm.addEventListener("submit", (event) => {
     const volumeText = convertLength(inputNumber);
     const massText = convertLength(inputNumber);
 
-    lengthConversion.textContent = lengthText;
-    volumeConversion.textContent = volumeText;
-    massConversion.textContent = massText;
+    lengthConversion.innerHTML = lengthText;
+    volumeConversion.innerHTML = volumeText;
+    massConversion.innerHTML = massText;
   } else {
     //Handle the case where the input is not a number
-    lengthConversion.textContent = "Invalid input. Please enter a valid number";
-    volumeConversion.textContent = "Invalid input. Please enter a valid number";
-    massConversion.textContent = "Invalid input. Please enter a valid number";
+    lengthConversion.innerHTML = "Please enter a valid number";
+    volumeConversion.innerHTML = "Please enter a valid number";
+    massConversion.innerHTML = "Please enter a valid number";
   }
 });
 
@@ -33,21 +33,21 @@ const convertLength = (userInput) => {
   const meterToFeet = (userInput * 3.28084).toFixed(3);
   const feetToMeter = (userInput * 0.3048).toFixed(3);
 
-  return `${userInput} meters = ${meterToFeet} feet | ${userInput} feet = ${feetToMeter} meters`;
+  return `${userInput} meters = ${meterToFeet} feet <br> ${userInput} feet = ${feetToMeter} meters`;
 };
 
 const convertVolume = (userInput) => {
   const litreToGallon = (userInput * 0.264172).toFixed(3);
   const gallonToLitre = (userInput * 3.78541).toFixed(3);
 
-  return `${userInput} litres = ${litreToGallon} gallons | ${userInput} gallons = ${gallonToLitre} litres`;
+  return `${userInput} litres = ${litreToGallon} gallons <br> ${userInput} gallons = ${gallonToLitre} litres`;
 };
 
 const convertMass = (userInput) => {
   const kiloToPound = (userInput * 2.20462).toFixed(3);
   const PoundToKilo = (userInput * 0.453592).toFixed(3);
 
-  return `${userInput} kilos = ${kiloToPound} pounds | ${userInput} pounds = ${PoundToKilo} kilos`;
+  return `${userInput} kilos = ${kiloToPound} pounds <br> ${userInput} pounds = ${PoundToKilo} kilos`;
 };
 
 userInput.addEventListener("mousewheel", function (event) {
