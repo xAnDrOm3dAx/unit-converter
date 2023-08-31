@@ -1,10 +1,11 @@
 const userInput = document.querySelector("#user-input");
 const convertButton = document.querySelector("#convert-button");
+const conversionForm = document.querySelector("#conversion-form");
 const lengthConversion = document.querySelector("#length-conversion");
 const volumeConversion = document.querySelector("#volume-conversion");
 const massConversion = document.querySelector("#mass-conversion");
 
-convertButton.addEventListener("click", (event) => {
+conversionForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   // Validate the user input as a number

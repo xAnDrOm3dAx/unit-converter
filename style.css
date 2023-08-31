@@ -49,9 +49,7 @@ p {
 
 #user-input {
   display: block;
-  width: 100%;
-  max-width: 500px;
-  height: 83px;
+  height: 90px;
   margin-bottom: 25px;
   border-radius: 5px;
   background-color: #6943ff;
