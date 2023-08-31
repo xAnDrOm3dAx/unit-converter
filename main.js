@@ -15,8 +15,8 @@ conversionForm.addEventListener("submit", (event) => {
 
   if (!isNaN(inputNumber)) {
     const lengthText = convertLength(inputNumber);
-    const volumeText = convertLength(inputNumber);
-    const massText = convertLength(inputNumber);
+    const volumeText = convertVolume(inputNumber);
+    const massText = convertMass(inputNumber);
 
     lengthConversion.innerHTML = lengthText;
     volumeConversion.innerHTML = volumeText;
