@@ -24,9 +24,9 @@ conversionForm.addEventListener("submit", (event) => {
     massConversion.innerHTML = massText;
   } else {
     //Handle the case where the input is not a number
-    lengthConversion.innerHTML = "Please enter a valid number";
-    volumeConversion.innerHTML = "Please enter a valid number";
-    massConversion.innerHTML = "Please enter a valid number";
+    lengthConversion.innerHTML = "Invalid Entry! <br> Please enter a valid number";
+    volumeConversion.innerHTML = "Invalid Entry! <br> Please enter a valid number";
+    massConversion.innerHTML = "Invalid Entry! <br> Please enter a valid number";
   }
 
   userInput.value = null;
