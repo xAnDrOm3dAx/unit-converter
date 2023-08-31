@@ -88,14 +88,6 @@ main {
   width: 90px;
   color: #000;
   cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-#convert-button:hover,
-#reset-button:hover {
-  border: 1px solid #ffffff;
-  background-color: transparent;
-  color: #ffffff;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -133,10 +125,5 @@ input[type="number"] {
     height: 80px;
     font-size: 3rem;
     font-weight: 800;
-  }
-
-  #convert-button,
-  #reset-button {
-    pointer-events: none;
   }
 }
