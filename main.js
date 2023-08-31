@@ -28,6 +28,8 @@ conversionForm.addEventListener("submit", (event) => {
     volumeConversion.innerHTML = "Please enter a valid number";
     massConversion.innerHTML = "Please enter a valid number";
   }
+
+  userInput.value = null;
 });
 
 const convertLength = (userInput) => {
