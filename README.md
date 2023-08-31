@@ -2,6 +2,10 @@
 
 A project from scrimba.com learn javaScript course.
 
+## Screenshot:
+
+<img width="583" alt="image" src="https://github.com/xAnDrOm3dAx/unit-converter/assets/123436349/10048377-7068-4d55-97b4-38a79cb0d512">
+
 ## Version 1:
 
 #### Technologies Used:
