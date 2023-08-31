@@ -19,8 +19,8 @@ Stretch: Add an input for the user to change the number and automatically recalc
 
 ## Lessons Learned
 
+I reinforced my knowledge on using javascript to validate user input from a form.
+
 ## Links
 
 Live Site url: https://xandrom3dax.github.io/unit-converter/
-
-## Further Development
