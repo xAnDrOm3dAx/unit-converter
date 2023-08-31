@@ -108,7 +108,7 @@ input[type="number"] {
 /* Media Queries */
 
 @media (max-width: 600px) {
-  #app-wrapper {
+  #wrapper {
     width: 100%;
   }
 
