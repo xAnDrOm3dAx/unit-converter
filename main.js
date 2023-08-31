@@ -4,6 +4,7 @@ const conversionForm = document.querySelector("#conversion-form");
 const lengthConversion = document.querySelector("#length-conversion");
 const volumeConversion = document.querySelector("#volume-conversion");
 const massConversion = document.querySelector("#mass-conversion");
+const resetButton = document.querySelector("#reset-button");
 
 conversionForm.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -52,4 +53,8 @@ const convertMass = (userInput) => {
 
 userInput.addEventListener("mousewheel", function (event) {
   event.target.blur();
+});
+
+resetButton.addEventListener("click", () => {
+  window.location.reload();
 });

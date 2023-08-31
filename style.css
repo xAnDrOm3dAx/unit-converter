@@ -82,7 +82,8 @@ main {
   gap: 24px;
 }
 
-#convert-button {
+#convert-button,
+#reset-button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +92,7 @@ main {
   background: #fff;
   padding: 9px 27px;
   margin-bottom: 34px;
+  width: 90px;
 }
 
 /* Chrome, Safari, Edge, Opera */
