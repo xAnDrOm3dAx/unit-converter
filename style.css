@@ -121,4 +121,8 @@ input[type="number"] {
   h2 {
     font-size: 1rem;
   }
+
+  .unit-conversion {
+    padding: 15px;
+  }
 }
