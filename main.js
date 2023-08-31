@@ -57,6 +57,7 @@ userInput.addEventListener("mousewheel", function (event) {
   event.target.blur();
 });
 
-resetButton.addEventListener("click", () => {
+resetButton.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevent the form from submitting
   window.location.reload();
 });
