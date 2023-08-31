@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css-reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <script defer src="main.js"></script>
     <title>Unit Converter - by Chris Werkmeister & Luke Hoang</title>
   </head>
 
@@ -16,21 +17,23 @@
       <article>
         <header>
           <h1>Metric/Imperial Unit Conversion</h1>
-          <input type="text" placeholder="0"></input>
-          <button id="convert">Convert</button>
+          <form>
+            <input type="number" placeholder="0" min="1" max="9999" id="user-input" />
+            <input type="submit" value="Convert" id="convert-button" />
+          </form>
         </header>
         <main>
           <article class="unit-conversion">
             <h2>Length (Meter/Feet)</h2>
-            <p>supporting text</p>
+            <p id="length-conversion">0 Meters = Feet | 0 Feet = Meters</p>
           </article>
           <article class="unit-conversion">
             <h2>Volume (Liters/Gallons)</h2>
-            <p>supporting text</p>
+            <p id="volume-conversion">0 Liters = Gallons | 0 Gallons = Liters</p>
           </article>
           <article class="unit-conversion">
             <h2>Mass (Kilograms/Pounds)</h2>
-            <p>supporting text</p>
+            <p id="mass-conversion">0 Kilograms = Pounds | 0 Pounds = Kilograms</p>
           </article>
         </main>
       </article>
