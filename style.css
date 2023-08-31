@@ -88,12 +88,21 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: none;
+  border: 1px solid #ffffff;
   background: #fff;
   padding: 9px 27px;
   margin-bottom: 34px;
   width: 90px;
   color: #000;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#convert-button:hover,
+#reset-button:hover {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 /* Chrome, Safari, Edge, Opera */
