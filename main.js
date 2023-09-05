@@ -12,8 +12,6 @@ conversionForm.addEventListener("submit", (event) => {
   // Validate the user input as a number
   const inputNumber = parseFloat(userInput.value);
 
-  console.log(!isNaN(inputNumber));
-
   if (!isNaN(inputNumber)) {
     const lengthText = convertLength(inputNumber);
     const volumeText = convertVolume(inputNumber);
